@@ -58,14 +58,6 @@ header img {
 	float: right;
 }
 
-/*
-#headshot img {
-	width: 140px;
-	float: right;
-	margin-top: 96px;
-}
-*/
-
 #main {
 	margin-top: 190px;
 	margin-right: auto;
@@ -98,16 +90,17 @@ header img {
 
 #portfolio img {
 	width: 400px;
+	height: 258px;
 	margin: 20px;
 	display: inline-block;
-	border: 1px solid #E6E6E6;
+	border: 6px solid #E6E6E6;
 	border-radius: 4px;
 	opacity: 0.6;
 }
 
 #portfolio img:hover {
 	opacity: 1;
-	border: 2px solid #E6E6E6;
+	border: 6px solid #666666; 
 }
 
 #portfolio h1 {
