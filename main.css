@@ -88,28 +88,90 @@ header img {
 	padding-top: 60px;
 }
 
-#portfolio a {
-	color: white;
-}
-
-#portfolio img {
-	width: 400px;
-	height: 258px;
-	margin: 20px;
-	display: inline-block;
-	border: 4px solid #E6E6E6;
-	opacity: 0.6;
-}
-
-#portfolio img:hover {
-	opacity: 1;
-	border: 4px solid #666666; 
-}
-
 #portfolio h1 {
 	font-size: 38px;
   	font-family: 'Abel', sans-serif;
   	padding-bottom: 40px;
+}
+
+.content-wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.complete-content {
+	height: 258px;
+	width: 400px;
+	position: relative;
+	overflow: hidden;
+	opacity: 1;
+	margin: 20px;
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+}
+
+.complete-content img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+a.image-link {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.image-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.button-section {
+	opacity: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: 'Abel', sans-serif;
+	color: white;
+}
+
+.button-section:hover {
+	opacity: 1;
+}
+
+.button-section .button {
+	display: inline-block;
+	padding: 14px 28px 14px 28px;
+	background-color: black;
+	border-radius: 4px;
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+	-o-transition: all 0.4s ease;
+  	-moz-transition: all 0.4s ease;
+  	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	margin-top: 30%;
+}
+
+.button:hover {
+	background-color: #00A352;
 }
 
 .color .button {
@@ -191,6 +253,7 @@ header img {
 	display: inline-block;
 	margin-bottom: 40px;
 	margin-left: 10px;
+	cursor: pointer;
 }
 
 .submit-button:hover {
@@ -220,4 +283,3 @@ footer a:hover {
 footer img {
 	width: 35px;
 }
-
