@@ -82,6 +82,15 @@ header img {
 	width: 60px;
 }
 
+.glyphicon-chevron-down {
+	font-size: 1.4em;
+	color: black;
+}
+
+#down-link {
+	padding: 60px;
+}
+
 #portfolio {
 	text-align: center;
 	margin-bottom: 32px;
