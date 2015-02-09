@@ -87,6 +87,14 @@ header img {
 	color: black;
 }
 
+.row {
+	margin: auto;
+}
+
+.row img {
+	height: 200px;
+}
+
 #down-link {
 	padding: 60px;
 }
