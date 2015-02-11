@@ -56,6 +56,17 @@ header img {
 	background-color: #2EB8E6;
 }
 
+#myName li {
+	font-family: 'Abel', sans-serif;
+	font-size: 32px;
+	color: #fff;
+}
+
+#headerOptions li {
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;
+}
+
 #clickable a {
 	font-size: 24px;
 	text-align: right;
