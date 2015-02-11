@@ -58,13 +58,22 @@ header img {
 
 #myName li {
 	font-family: 'Abel', sans-serif;
-	font-size: 32px;
-	color: #fff;
+	font-size: 48px;
+	padding: 10px;
+}
+
+#myName a {
+	color: white;
 }
 
 #headerOptions li {
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
+	padding: 10px;
+}
+
+#headerOptions a {
+	color: white;
 }
 
 #clickable a {
