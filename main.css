@@ -48,6 +48,14 @@ header img {
 	margin-top: 30px;
 }
 
+#giticon img {
+	width: 20px;
+}
+
+.navbar {
+	background-color: #2EB8E6;
+}
+
 #clickable a {
 	font-size: 24px;
 	text-align: right;
