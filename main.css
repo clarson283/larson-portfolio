@@ -1,3 +1,4 @@
+/*
 header {
   	position: fixed;
   	width: 100%;
@@ -6,7 +7,7 @@ header {
   	font-size: 62px;
   	line-height: 96px;
   	height: 96px;
-  	background: #2EB8E6;  /*#33CCFF*/
+  	background: #2EB8E6;  
   	color: #fff;
   	font-family: 'Abel', sans-serif;
   	-o-transition: all 0.4s ease;
@@ -20,7 +21,7 @@ header.sticky {
   	font-size: 24px;
   	line-height: 48px;
   	height: 48px;
-  	background: #00A352; /*#5CD65C;*/
+  	background: #00A352; /
   	text-align: left;
   	padding-left: 20px;
 }
@@ -43,6 +44,8 @@ header img {
 	position: relative;
 	margin-top: 30px;
 }
+
+*/
 
 #giticon img {
 	width: 20px;
