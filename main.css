@@ -75,6 +75,14 @@ header img {
 	letter-spacing: 4px;
 }
 
+#headerOptions li:hover {
+	background-color: #29A6CF;
+	-o-transition: all 0.6s ease;
+  	-moz-transition: all 0.6s ease;
+  	-webkit-transition: all 0.6s ease;
+  	transition: all 0.6s ease;
+}
+
 #main {
 	margin-top: 190px;
 	margin-right: auto;
