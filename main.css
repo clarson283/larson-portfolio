@@ -83,6 +83,10 @@ header img {
   	transition: all 0.6s ease;
 }
 
+.navbar-default .navbar-toggle {
+	border: 0;
+}
+
 #main {
 	margin-top: 190px;
 	margin-right: auto;
