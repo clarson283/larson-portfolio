@@ -15,10 +15,6 @@ header {
   	transition: all 0.4s ease;
 }
 
-/*header h1 {
-	display: inline;
-	float: left;
-}*/
 
 header.sticky {
   	font-size: 24px;
@@ -58,12 +54,11 @@ header img {
 
 #myName a {
 	font-family: 'Abel', sans-serif;
-	font-size: 48px;
-	padding: 10px;
-}
-
-#myName a {
+	font-size: 40px;
 	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 22px;
 }
 
 #headerOptions li {
@@ -74,16 +69,6 @@ header img {
 
 #headerOptions a {
 	color: white;
-}
-
-#clickable a {
-	font-size: 24px;
-	text-align: right;
-	display: inline-block;
-	text-decoration: none;
-	color: #fff;
-	padding-right: 14px;
-	float: right;
 }
 
 #main {
@@ -102,7 +87,6 @@ header img {
 
 #main h1 {
 	font-size: 62px;
-	/*font-weight: bold;*/
 }
 
 #main img {
