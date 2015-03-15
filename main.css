@@ -1,52 +1,3 @@
-/*
-header {
-  	position: fixed;
-  	width: 100%;
-  	text-align: left;
-  	padding-left:20px;
-  	font-size: 62px;
-  	line-height: 96px;
-  	height: 96px;
-  	background: #2EB8E6;  
-  	color: #fff;
-  	font-family: 'Abel', sans-serif;
-  	-o-transition: all 0.4s ease;
-  	-moz-transition: all 0.4s ease;
-  	-webkit-transition: all 0.4s ease;
-  	transition: all 0.4s ease;
-}
-
-
-header.sticky {
-  	font-size: 24px;
-  	line-height: 48px;
-  	height: 48px;
-  	background: #00A352; /
-  	text-align: left;
-  	padding-left: 20px;
-}
-
-header.sticky #clickable a {
-	font-size: 18px;
-}
-
-header.sticky img {
-	width: 25px;
-	margin-top: 10px;
-}
-
-header #clickable {
-	padding-right: 25px;
-}
-
-header img {
-	width: 30px;
-	position: relative;
-	margin-top: 30px;
-}
-
-*/
-
 #giticon img {
 	width: 20px;
 }
@@ -85,6 +36,10 @@ header img {
 
 .navbar-default .navbar-toggle {
 	border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
 }
 
 #main {
@@ -217,7 +172,7 @@ a.image-link {
 }
 
 .button:hover {
-	background-color: #00A352;
+	background-color: #29A6CF;
 }
 
 .color .button {
@@ -237,8 +192,8 @@ a.image-link {
 }
 
 .color .button:hover {
-	background-color: #00A352;
-	border: 1px solid #00A352;
+	background-color: #29A6CF;
+	border: 1px solid #29A6CF;
 }
 
 #resume {
@@ -303,7 +258,7 @@ a.image-link {
 }
 
 .submit-button:hover {
-	background-color: #00A352;
+	background-color: #29A6CF;
 }
 
 footer {
@@ -323,9 +278,10 @@ footer p, footer a {
 }
 
 footer a:hover {
-	color: #00A352;
-}
-
-footer img {
-	width: 35px;
+	color: #29A6CF;
+	text-decoration: none;
+	-o-transition: all 0.6s ease;
+  	-moz-transition: all 0.6s ease;
+  	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
 }

@@ -1,4 +1,12 @@
 $(document).ready(function () {
+
+    $('.navbar-brand').click(function () {
+    	alert('hi');
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+    });
+
+
+
 	//smooth scrolling section - works
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
