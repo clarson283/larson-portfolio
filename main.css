@@ -3,7 +3,10 @@
 }
 
 .navbar {
-	background-color: #2EB8E6;
+	background-color: #336699;
+	color: white;
+	border-bottom: 6px solid #336699;
+	border-top: 6px solid #336699;
 }
 
 #myName a {
@@ -27,7 +30,7 @@
 }
 
 #headerOptions li:hover {
-	background-color: #29A6CF;
+	background-color: #5C85AD;
 	-o-transition: all 0.6s ease;
   	-moz-transition: all 0.6s ease;
   	-webkit-transition: all 0.6s ease;
@@ -50,10 +53,11 @@
 	font-size: 22px;
 	padding:30px;
 	width: 60%;
-	/*border-bottom: 1px solid #E6E6E6;*/
+	border-bottom: 1px solid #E6E6E6;
 	width: 90%;
 	padding-bottom: 80px;
-	text-align: center;
+	/*text-align: center;*/
+	color: #336699;
 }
 
 #main h1 {
@@ -67,7 +71,7 @@
 
 .glyphicon-chevron-down {
 	font-size: 1.4em;
-	color: black;
+	color: #336699;
 }
 
 .row {
@@ -188,13 +192,13 @@ a.image-link {
 
 .color .button {
 	text-decoration: none;
-	border: 1px solid #2EB8E6;
+	border: 1px solid #336699;
 	border-radius: 4px;
 	padding: 12px 22px;
 	font-size: 24px;
   	font-family: 'Abel', sans-serif;
   	color: #fff;
-	background-color: #2EB8E6;
+	background-color: #336699;
 	-o-transition: all 0.4s ease;
   	-moz-transition: all 0.4s ease;
   	-webkit-transition: all 0.4s ease;
@@ -262,7 +266,7 @@ a.image-link {
 	font-size: 24px;
   	font-family: 'Abel', sans-serif;
   	color: #fff;
-	background-color: #2EB8E6;
+	background-color: #336699;
 	-o-transition: all 0.4s ease;
   	-moz-transition: all 0.4s ease;
   	-webkit-transition: all 0.4s ease;
