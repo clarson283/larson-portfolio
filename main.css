@@ -3,10 +3,15 @@
 }
 
 .navbar {
-	background-color: #336699;
+	background-color: white;
 	color: white;
 	border-bottom: 6px solid #336699;
 	border-top: 6px solid #336699;
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .navbar-default .navbar-collapse {
@@ -20,11 +25,11 @@
 #headerOptions li {
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 #headerOptions a {
-	color: white;
+	color: #336699;
 	letter-spacing: 4px;
 }
 
@@ -45,22 +50,24 @@
 }
 
 #main {
-	margin-top: 190px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
-	padding:30px;
-	width: 60%;
-	border-bottom: 1px solid #E6E6E6;
-	width: 90%;
-	padding-bottom: 80px;
+	padding: 100px 60px;
 	/*text-align: center;*/
-	color: #336699;
+	color: white;
+	background-color: #336699;
 }
 
 #main h1 {
 	font-size: 62px;
+	text-transform: uppercase;
+}
+
+#myName {
+	font-size: 72px;
+	text-transform: uppercase;
 }
 
 #main img {
