@@ -9,13 +9,12 @@
 	border-top: 6px solid #336699;
 }
 
-#myName a {
-	font-family: 'Abel', sans-serif;
-	font-size: 40px;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	padding: 26px;
+.navbar-default .navbar-collapse {
+	border-color: #336699;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #336699;
 }
 
 #headerOptions li {
