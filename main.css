@@ -64,14 +64,16 @@
 	background-color: #007AA3;
 }
 
-#main h1 {
-	font-size: 62px;
+#main h2 {
+	font-size: 44px;
 	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 #myName {
-	font-size: 72px;
+	font-size: 66px;
 	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 #main img {
