@@ -242,7 +242,15 @@ a.image-link {
 }
 
 #resume {
-	text-align: center;
+	padding-left: 60px;
+}
+
+#resume h1 {
+	font-size: 38px;
+	font-family: 'Abel', sans-serif;
+	padding-bottom: 40px;
+	color: #FF9966;
+	letter-spacing: 4px;
 }
 
 .text {
