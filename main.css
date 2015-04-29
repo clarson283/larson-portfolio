@@ -243,14 +243,21 @@ a.image-link {
 
 #resume {
 	padding-left: 60px;
+	padding-bottom: 40px;
 }
 
 #resume h1 {
 	font-size: 38px;
 	font-family: 'Abel', sans-serif;
-	padding-bottom: 40px;
 	color: #FF9966;
 	letter-spacing: 4px;
+}
+
+#resume h4 {
+	font-size: 22px;
+	font-family: 'Abel', sans-serif;
+	letter-spacing: 4px;
+	color: #007AA3;
 }
 
 .text {
