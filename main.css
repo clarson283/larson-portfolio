@@ -33,12 +33,12 @@
 	letter-spacing: 4px;
 }
 
-#headerOptions li:hover {
-	border-bottom: #5C85AD;
+#headerOptions a:hover {
+	color: #007AA3;
 	-o-transition: all 0.6s ease;
   	-moz-transition: all 0.6s ease;
   	-webkit-transition: all 0.6s ease;
-  	transition: all 0.6s ease;
+  	transition: all 1.2s ease;
 }
 
 
@@ -94,11 +94,25 @@
 	padding: 60px;
 }
 
+#hireMe {
+	margin: 30px 60px;
+}
+
 #hireMe img {
 	width: 120px;
 	height: 120px;
-	border-radius: 60px;
-	margin: 30px 60px;
+}
+
+#hireMe h4 {
+	font-family: 'Allura', cursive;
+	font-size: 22px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+#hireMe p {
+	font-family: 'Abel', sans-serif;
+	padding-left: 20px;
 }
 
 #portfolio {
