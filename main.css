@@ -59,7 +59,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	margin-left: auto;
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
-	padding: 100px 60px 300px 60px;
+	padding: 120px 60px 300px 60px;
 	color: white;
 	background-color: #248FB2;
 	background-image: url('images/sandiego2.jpeg');
@@ -113,7 +113,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
   	font-family: 'Abel', sans-serif;
   	padding-bottom: 40px;
   	padding-left: 60px;
-  	color: #FF9966;
+  	color: black;
   	letter-spacing: 4px;
 }
 
