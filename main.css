@@ -236,7 +236,7 @@ a.image-link {
 #resume h1 {
 	font-size: 38px;
 	font-family: 'Abel', sans-serif;
-	color: #FF9966;
+	color: black;
 	letter-spacing: 4px;
 }
 
@@ -257,7 +257,6 @@ a.image-link {
 }
 
 #contact {
-	text-align: center;
 	border-top: 1px solid #E6E6E6;
 	padding-top: 40px;
 	width: 90%;
@@ -267,8 +266,9 @@ a.image-link {
 #contact h1 {
 	font-family: 'Abel', sans-serif;
   	color: black;
-  	font-size: 28px;
+  	font-size: 38px;
   	margin-left: 10px;
+  	letter-spacing: 4px;
 }
 
 .text, .message {
