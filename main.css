@@ -29,7 +29,7 @@
 }
 
 #headerOptions a {
-	color: #FF9966;
+	color: white;
 	letter-spacing: 4px;
 }
 
@@ -41,6 +41,10 @@
   	transition: all 1.2s ease;
 }
 
+nav.navbar.navbar-default.navbar-fixed-top {
+	background-color: black;
+	opacity: 0.7;
+}
 
 .navbar-default .navbar-toggle {
 	border: 0;
@@ -55,13 +59,17 @@
 	margin-left: auto;
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
-	padding: 100px 60px;
+	padding: 100px 60px 300px 60px;
 	color: white;
-	background-color: #FF9966;
+	background-color: #248FB2;
+	background-image: url('images/sandiego2.jpeg');
+	background-repeat: round;
+	opacity: 0.7;
+	margin-top: 20px;
 }
 
 #main h2 {
-	font-size: 44px;
+	font-size: 26px;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
@@ -92,27 +100,6 @@
 
 #down-link {
 	padding: 60px;
-}
-
-#hireMe {
-	margin: 30px 60px;
-}
-
-#hireMe img {
-	width: 120px;
-	height: 120px;
-}
-
-#hireMe h4 {
-	font-family: 'Allura', cursive;
-	font-size: 22px;
-	padding-left: 20px;
-	display: inline-block;
-}
-
-#hireMe p {
-	font-family: 'Abel', sans-serif;
-	padding-left: 20px;
 }
 
 #portfolio {
