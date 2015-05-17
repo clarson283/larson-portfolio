@@ -60,11 +60,12 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	margin-left: auto;
 	font-family: 'Abel', sans-serif;
 	font-size: 22px;
-	padding: 120px 60px 300px 60px;
+	padding: 136px 60px 280px 60px;
 	color: white;
 	background-color: #248FB2;
 	background-image: url('images/sandiego2.jpeg');
-	background-repeat: round;
+	background-repeat: no-repeat;
+	background-size: cover;
 	opacity: 0.7;
 	margin-top: 20px;
 }
