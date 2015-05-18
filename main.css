@@ -258,9 +258,18 @@ a.image-link {
 	color: #003141;
 }
 
-.skill-list {
+.skill-list, .edu-list, .job-info, .bullet-points {
 	font-family: 'Abel', sans-serif;
 	font-size: 18px;
+}
+
+.job-info {
+	font-weight: bold;
+}
+
+.bullet-points ul {
+	list-style-type: square;
+	padding-left: 35px;
 }
 
 .text {
