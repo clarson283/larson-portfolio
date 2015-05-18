@@ -107,7 +107,6 @@ nav.navbar.navbar-default.navbar-fixed-top {
 #portfolio {
 	margin-bottom: 32px;
 	padding-top: 80px;
-	padding-bottom: 80px;
 }
 
 #portfolio h1 {
@@ -206,7 +205,8 @@ a.image-link {
 }
 
 .button:hover {
-	background-color: #29A6CF;
+	background-color: black;
+	opacity: 1;
 }
 
 .color .button {
