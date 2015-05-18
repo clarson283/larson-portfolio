@@ -249,6 +249,20 @@ a.image-link {
 	color: #007AA3;
 }
 
+.panel-group .panel {
+	width: 90%;
+}
+
+.panel-title a:hover, .panel-title a:focus {
+	text-decoration: none;
+	color: #003141;
+}
+
+.skill-list {
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+}
+
 .text {
 	width: 40%;
 }
