@@ -1,11 +1,6 @@
-#giticon img {
-  width: 20px;
-}
 .navbar {
   background-color: white;
   color: white;
-  /*border-bottom: 6px solid #007AA3;
-	border-top: 6px solid #007AA3;*/
 }
 .overlay {
   position: absolute;
@@ -34,11 +29,14 @@
   float: right;
 }
 #headerOptions a:hover {
-  color: #007AA3;
+  color: #29A6CF;
   -o-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -webkit-transition: all 0.6s ease;
   transition: all 1.2s ease;
+}
+#headerOptions #giticon img {
+  width: 20px;
 }
 nav.navbar.navbar-default.navbar-fixed-top {
   background-color: #007AA3;
@@ -166,7 +164,6 @@ a.image-link {
   display: inline-block;
   padding: 30% 0;
   background-color: black;
-  border-radius: 4px;
   font-size: 22px;
   text-align: center;
   position: relative;
@@ -182,10 +179,20 @@ a.image-link {
   background-color: black;
   opacity: 1;
 }
+.button-section .button:hover span {
+  opacity: 1;
+  -o-transition: opacity 0.4s ease;
+  -moz-transition: opacity 0.4s ease;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+.button-section .button span {
+  font-size: 16px;
+  opacity: 0;
+}
 .color .button {
   text-decoration: none;
   border: 1px solid #007AA3;
-  border-radius: 4px;
   padding: 12px 22px;
   font-size: 24px;
   font-family: 'Abel', sans-serif;
